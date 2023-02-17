@@ -4,19 +4,187 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Selector Sector</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="  " />
 
+    <title>Selection Section</title>
+   
   </head>
   <body>
-    <div id="loading">
-
-      
-    </div>
+   
+    <label class="swtich" button id="theme-btn" onclick="setTheme()">  Dark / Light  </button></label>
+   </label>
     
+    <img src="./imgs/logo.png" class="logo" />
+    <nav>
+      
+      <ul>
+        <li><a href="#wrapper">music</a></li>
+        <li> <a href="#join">share</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#play">play</a></li>
+        </ul>
+ </nav>
+ </div>
+
     <div class="container">
+     
+      <div class="header-text">
+        <h1>Selection<br />Section</h1>
+        <span class="sqaure"></span>
+        <p>
+          <br><br>
+          sharing sounds,<br>for the people.
+        </p>
+        <button class="about-btn">About</button>
+
+
+        <div class="line">
+          <span class="line-1"></span><br />
+          <span class="line-2"></span><br />
+          <span class="line-3"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="about">
+<div class="about-left-col">
+<img src="./imgs/duo-ear.png"></div>
+
+<div class="about-right-col">
+<div class="about-text">
+<h1>about us</h1>
+<span class="sqaure"></span>
+
+<p>Selection Section is a space to expand your musical knowledge beyond the algorithum. We are not anti-ai, we like machines, but we like people more. Join our selectors in creating the biggest hand-picked musical data-base outside your local record shop. </p>
+
+<div class="line">
+  <span class="line-1"></span><br />
+  <span class="line-2"></span><br />
+  <span class="line-3"></span>
+</div><br><br>
+<h2> Let's explore</h2>
+  </div>
+</div>
+    </section>
+        
+    <section class="wrapper">
+      <section id="wrapper"></section>
+
+      <div class="carousel"  id="img-container">
+        <img src="./albumcovers/air-moon-safari.jpg" alt="img" /> 
+        <img src="./albumcovers/alfa-mist- variables.jpg" alt="img" />
+        <img src="./albumcovers/bob-marley-exodus.jpg" alt="img" />
+        <img src="./albumcovers/bowie-hunkydory.jpg" alt="img" />
+        <img src="./albumcovers/chris-and-cosey-Elemental7.jpg" alt="img" />
+        <img src="./albumcovers/Cure-wish.jpg" alt="img" /> 
+      </div>
+
+      <section class="rated">
+      <h2>Rated Albums</h2>
+      <br>
+      <div class="line">
+        <span class="line-1"></span><br />
+        <span class="line-2"></span><br />
+        <span class="line-3"></span>
+      </div><br><br>
+        <div class="scroll-bg">
+          <div class="scroll-div">
+            <div class="scroll-objt">
+              <ul id="favourite-list"></ul>
+              <li></li>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+<br>
+<section id="join">
+  <div class="containe cnt-rowr">
+    <!-- <div class="contact-left-col"> -->
+      <h1>Share your<br> favourite <br>albums</h1>
+      <form>
+      <br>
+
+        <div class="inputBox">
+          <input id="Artist" type="text" oninput="getArtistName ()" required="required">
+          <span>Artist</span>
+        </div>
+        
+        <div class="inputBox">
+          <input type="text" required="required">
+          <span>Album Name</span>
+        </div>
+
+        <div class="inputBox">
+          <input type="text" required="required">
+          <span>Genre</span>
+        </div>
+
+        <div class="line">
+          <span class="line-1"></span><br />
+          <span class="line-2"></span><br />
+          <span class="line-3"></span>
+        </div><br><br>
+
+       
+        
+ </div>
+    </div>
+  </div>
+  <div class="line">
+    <span class="line-1"></span><br />
+    <span class="line-2"></span><br />
+    <span class="line-3"></span>
+  </div><br><br>
+
+</section>
+        <button id="themeBtn"></button>
+      
+      <section id="contact">
+        
+    <section id="joinUs">
+      <div class="join-left-col">
+        <img src="./imgs/duo-shpe.png">
+      
+      <div class="join-right-col">
+      <div class="join-text">
+      <h1>Join Selection Section</h1>
+      <span class="sqaure"></span>
+      <br>
+      <p>Join our mailing list!<br> Become part of the community and recieve weekly news, including album suggestions, record label releases and merch giveaways. </p>
       
 
-    
+        <div class="inputBox">
+          <input type="text" required="required">
+          <span>First name</span>
+        </div>
+        
+        <div class="inputBox">
+          <input type="text" required="required">
+          <span>Last name</span>
+        </div>
+
+        <div class="inputBox">
+          <input type="text" required="required">
+          <span>Email</span>
+        </div>
+
+        <div class="line">
+          <span class="line-1"></span><br />
+          <span class="line-2"></span><br />
+          <span class="line-3"></span>
+        </div><br><br>
+
+      </section>
+    </div>
+    <script src="app.js"></script> 
+    <script src="script.js" defer></script>
+    <script src="join.js" ></script>
+    <script src="theme.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
   </body>
 </html>
